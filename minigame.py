@@ -114,10 +114,9 @@ hero5.claim(bomb2)
 hero5.claim(bomb3)
 
 #итоги
-print("Final results\n", hero1.name, "has", hero1.hp, "health and",
-      hero1.power, "power\n", hero2.name, "has", hero2.hp,
-      "health and", hero2.power, "power\n", hero3.name, "has",
-      hero3.hp, "health and", hero3.power, "power\n", hero4.name,
-      "has", hero4.hp, "health and", hero4.power, "power\n",
-      hero5.name, "has", hero5.hp, "health and", hero5.power,
-      "power\n")
+print("Final results\n",
+      hero1.name, "has", hero1.hp, "health and", hero1.power, "power\n",
+      hero2.name, "has", hero2.hp, "health and", hero2.power, "power\n",
+      hero3.name, "has", hero3.hp, "health and", hero3.power, "power\n",
+      hero4.name, "has", hero4.hp, "health and", hero4.power, "power\n",
+      hero5.name, "has", hero5.hp, "health and", hero5.power, "power\n")
